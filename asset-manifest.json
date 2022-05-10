@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/city-tour/static/css/main.028418d3.css",
-    "main.js": "/city-tour/static/js/main.8aa4e3b2.js",
+    "main.js": "/city-tour/static/js/main.41602334.js",
     "static/media/Cart.jpg": "/city-tour/static/media/Cart.ad7ce596a7fe95c54730.jpg",
     "static/media/slide-02.jpg": "/city-tour/static/media/slide-02.1e1f708c54b33979790d.jpg",
     "static/media/slide-01.jpg": "/city-tour/static/media/slide-01.ffb1801485b2856ae98f.jpg",
@@ -20,10 +20,10 @@
     "static/media/Buy_icon.png": "/city-tour/static/media/Buy_icon.b285a3a02b8e021b802c.png",
     "index.html": "/city-tour/index.html",
     "main.028418d3.css.map": "/city-tour/static/css/main.028418d3.css.map",
-    "main.8aa4e3b2.js.map": "/city-tour/static/js/main.8aa4e3b2.js.map"
+    "main.41602334.js.map": "/city-tour/static/js/main.41602334.js.map"
   },
   "entrypoints": [
     "static/css/main.028418d3.css",
-    "static/js/main.8aa4e3b2.js"
+    "static/js/main.41602334.js"
   ]
 }

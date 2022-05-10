@@ -1,0 +1,242 @@
+.tour {
+    display: flex;
+    padding: 60px 0;
+}
+
+.tour_time {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    color: var(--white-color);
+    z-index: 0;
+}
+
+.tour_time h4 {
+    font-size: 1.4rem;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-top: 50px;
+}
+
+.tour_time_underline {
+    font-size: 4rem;
+    line-height: 55px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.tour_time_underline span {
+    position: relative;
+}
+
+.tour_time_underline > span::after {
+    content: "";
+    width: 100%;
+    background-color: #da9360;
+    position: absolute;
+    height: 5px;
+    bottom: 11px;
+    right: 0;
+    z-index: -1;
+}
+
+.tour_time_clock {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tour_time_spacetime {
+    margin: 0 0 20px;
+    font-size: 14px;
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.tour_time_spacetime h1 {
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.tour_time_spacetime h2 {
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.tour_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tour_item {
+    width: 100%;
+    margin: 15px;
+    box-shadow: 0 0 0.1rem rgb(0 0 0 / 50%);
+    position: relative;
+}
+
+.tour_item_img {
+    max-height: 231px;
+    overflow: hidden;
+}
+
+.tour_item_img img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tour_item_content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tour_item_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour_item_namehead {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #555;
+    padding-bottom: 5px;
+}
+
+.tour_item_namehead:hover {
+    color: #555;
+}
+
+.tour_item_namelocation {
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #a9a9a9;
+    padding-bottom: 20px;
+}
+
+.tour_item_nameicon {
+    font-size: 14px;
+}
+
+.tour_item_sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+
+}
+
+.c {
+    position: relative;
+}
+
+.tour_item_salename {
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.c::after {
+    content: "";
+    border-top: 1px solid #e1e1e1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.tour_item_salecoin {
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.tour_item_salename1 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.tour_item_salename2 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.tour_item_salename3 {
+    background-color: #ffd205;
+    color: #fff;
+    height: 15px;
+    border-radius: 30px;
+    line-height: 14px;
+    font-size: 10px;
+    padding: 2px 8px;
+    margin-left: 5px;
+}
+
+.tour_item_text {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 27px;
+    padding: 20px 0;
+}
+
+.tour_item_btn:hover {
+    color: #fff;
+}
+
+.tour_ic {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    right: 20px;
+    z-index: 9;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.tour_icon {
+    font-size: 14px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+@media screen and (max-width: 1024px){
+    .tour {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px 50px;
+    }
+    .tour_time {
+        margin: 0px;
+        width: 100%;
+    }
+    .tour_list {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .tour_item {
+        margin: 30px 0;
+        width: 100%;
+    }
+}

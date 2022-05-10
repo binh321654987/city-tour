@@ -1,0 +1,122 @@
+.btn {
+    width: max-content;
+    min-width: 82px;
+    height: 34px;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn.btn__size_s {
+    width: 98px;
+    height: 27px;
+    font-size: 1.6rem;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.btn.btn__size_m {
+    width: 138px;
+    height: 34px;
+    font-size: 1.6rem;
+    line-height: 27px;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.btn.btn__size_l {
+    height: 44px;
+    font-size: 1.6rem;
+    padding: 15px 35px;
+    border-radius: 38px;
+}
+
+.btn.btn__size_xl {
+    width: 250px;
+    font-size: 2rem;
+    padding: 15px 50px;
+}
+
+.btn.btn__primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.carousel_button {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    margin-top: 100px;
+    right: 10px;
+    animation: fade-in-down .5s ease-in;
+    transform-origin: top;
+    text-transform: uppercase;
+}
+
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        transform: scale(1, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+
+.carousel_button:hover {
+    border-radius: 0;
+}
+
+.package_btn {
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.package_item__price {
+    z-index: 3;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.package_item__price:hover {
+    color: #fff;
+}
+
+.tour_time_clockbtn {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    color: var(--primary-color);
+    height: 44px;
+    width: 164px;
+    text-align: center;
+}
+
+.tour_time_clockbtn:hover {
+    color: var(--primary-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .package_item__price {
+        z-index: 3;
+        position: absolute;
+        top: 15%;
+        right: 50%;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        transform: translateX(130%);
+    }
+}

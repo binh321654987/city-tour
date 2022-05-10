@@ -1,0 +1,141 @@
+.package {
+    margin: 80px 0;
+    display: flex;
+    position: relative;
+}
+
+.package_text {
+    width: 800px;
+    padding: 70px;
+    text-align: left;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
+
+.package_text>p {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.package_text__heading {
+    color: #555;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 30px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.package_text__heading span {
+    position: relative;
+}
+
+.package_text__heading span::after {
+    content: "";
+    width: 100%;
+    background-color: var(--primary-color);
+    position: absolute;
+    height: 5px;
+    bottom: 11px;
+    right: 0;
+    z-index: -1;
+}
+
+.package_text__content {
+    display: flex;
+    font-size: 1.4rem;
+    line-height: 27px;
+    margin: 15px 0;
+    color: var(--text-color);
+}
+
+.package_text__content>span:first-child {
+    padding-right: 15px;
+}
+
+.package_text__content>span:last-child {
+    padding-left: 15px;
+}
+
+.package_item {
+    display: flex;
+    z-index: 2;
+    margin-bottom: 55px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.package_item__list {
+    position: relative;
+}
+
+.package_item__img {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.package_video {
+    height: 600px;
+    margin: 80px 0;
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    background-image: url(../../assets/img/package-05.jpg);
+}
+
+@media screen and (max-width: 1024px) {
+    .package {
+        flex-direction: column;
+    }
+
+    .package_text {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .package_text__content {
+        flex-direction: column;
+    }
+
+    .package_text__content>span:first-child {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+
+    .package_text__content>span:last-child {
+        padding-left: 15px;
+    }
+
+    .package_item {
+        flex-direction: column;
+        width: 100%;
+        position: inherit;
+        margin: 0 auto;
+    }
+
+    .package_item__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .package_item__img {
+        width: 280px;
+        height: 270px;
+        margin: 15px 0;
+        cursor: pointer;
+    }
+
+    .package_video {
+        margin: 30px 50px;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        display: flex;
+    }
+}

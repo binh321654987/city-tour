@@ -1,0 +1,71 @@
+.buynow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.buy_img {
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #555;
+    margin: 0;
+    border-radius: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    left: -14px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 15%);
+}
+
+.buy_img img {
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.money {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background-color: #555;
+    color: var(--white-color);
+    font-size: 25px;
+    line-height: 65px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.money_icon {
+    color: #fff;
+    font-size: 8px;
+    position: relative;
+    top: -17px;
+    right: -20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.buynow_text {
+    position: absolute;
+    top: 0px;
+    left: 13px;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 740px){
+    .buynow {
+        display: none;
+    }
+}

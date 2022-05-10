@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.083f902f.css",
-    "main.js": "/static/js/main.ef1c30a0.js",
-    "static/media/Cart.jpg": "/static/media/Cart.ad7ce596a7fe95c54730.jpg",
-    "static/media/slide-02.jpg": "/static/media/slide-02.1e1f708c54b33979790d.jpg",
-    "static/media/slide-01.jpg": "/static/media/slide-01.ffb1801485b2856ae98f.jpg",
-    "static/media/package-05.jpg": "/static/media/package-05.9348500fce7a6ea1558a.jpg",
-    "static/media/package-06.jpg": "/static/media/package-06.27a734f557517b7d9e65.jpg",
-    "static/media/tour_image-1.jpg": "/static/media/tour_image-1.0338f75b78b05a630105.jpg",
-    "static/media/tour_image-2.jpg": "/static/media/tour_image-2.34f3b1d1d467c6b90d0c.jpg",
-    "static/media/package-07.jpg": "/static/media/package-07.11373e6361450f3a464a.jpg",
-    "static/media/acticle-2.jpg": "/static/media/acticle-2.7316b8531282d0191852.jpg",
-    "static/media/acticle-3.jpg": "/static/media/acticle-3.893fcc71c6386bbce543.jpg",
-    "static/media/acticle-1.jpg": "/static/media/acticle-1.74b25979ef886ba50714.jpg",
-    "static/media/acticle-4.jpg": "/static/media/acticle-4.f1cc6313e90b17c71fb0.jpg",
-    "static/media/logo.png": "/static/media/logo.7af7c1b181d206ed4c39.png",
-    "static/media/tour-icon-1.png": "/static/media/tour-icon-1.6eb2180ca4e66335155f.png",
-    "static/media/tour-icon-2.png": "/static/media/tour-icon-2.24a9d838c4c8047e86cb.png",
-    "static/media/Buy_icon.png": "/static/media/Buy_icon.b285a3a02b8e021b802c.png",
-    "index.html": "/index.html",
-    "main.083f902f.css.map": "/static/css/main.083f902f.css.map",
-    "main.ef1c30a0.js.map": "/static/js/main.ef1c30a0.js.map"
+    "main.css": "/city-tour/static/css/main.028418d3.css",
+    "main.js": "/city-tour/static/js/main.48554052.js",
+    "static/media/Cart.jpg": "/city-tour/static/media/Cart.ad7ce596a7fe95c54730.jpg",
+    "static/media/slide-02.jpg": "/city-tour/static/media/slide-02.1e1f708c54b33979790d.jpg",
+    "static/media/slide-01.jpg": "/city-tour/static/media/slide-01.ffb1801485b2856ae98f.jpg",
+    "static/media/package-05.jpg": "/city-tour/static/media/package-05.9348500fce7a6ea1558a.jpg",
+    "static/media/package-06.jpg": "/city-tour/static/media/package-06.27a734f557517b7d9e65.jpg",
+    "static/media/tour_image-1.jpg": "/city-tour/static/media/tour_image-1.0338f75b78b05a630105.jpg",
+    "static/media/tour_image-2.jpg": "/city-tour/static/media/tour_image-2.34f3b1d1d467c6b90d0c.jpg",
+    "static/media/package-07.jpg": "/city-tour/static/media/package-07.11373e6361450f3a464a.jpg",
+    "static/media/acticle-2.jpg": "/city-tour/static/media/acticle-2.7316b8531282d0191852.jpg",
+    "static/media/acticle-3.jpg": "/city-tour/static/media/acticle-3.893fcc71c6386bbce543.jpg",
+    "static/media/acticle-1.jpg": "/city-tour/static/media/acticle-1.74b25979ef886ba50714.jpg",
+    "static/media/acticle-4.jpg": "/city-tour/static/media/acticle-4.f1cc6313e90b17c71fb0.jpg",
+    "static/media/logo.png": "/city-tour/static/media/logo.7af7c1b181d206ed4c39.png",
+    "static/media/tour-icon-1.png": "/city-tour/static/media/tour-icon-1.6eb2180ca4e66335155f.png",
+    "static/media/tour-icon-2.png": "/city-tour/static/media/tour-icon-2.24a9d838c4c8047e86cb.png",
+    "static/media/Buy_icon.png": "/city-tour/static/media/Buy_icon.b285a3a02b8e021b802c.png",
+    "index.html": "/city-tour/index.html",
+    "main.028418d3.css.map": "/city-tour/static/css/main.028418d3.css.map",
+    "main.48554052.js.map": "/city-tour/static/js/main.48554052.js.map"
   },
   "entrypoints": [
-    "static/css/main.083f902f.css",
-    "static/js/main.ef1c30a0.js"
+    "static/css/main.028418d3.css",
+    "static/js/main.48554052.js"
   ]
 }

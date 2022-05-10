@@ -2,7 +2,7 @@ export const menuItems = [
     {
         id: 1,
         title: "Home",
-        to: "/"
+        to: "/city-tour"
     },
     {
         id: 2,

@@ -34,7 +34,7 @@ const Navbar = ({ buttonnav }) => {
         <header className={clsx(styles.header,{[styles.trasparent]:trasparent})}>
             <div className={`grid wide`}>
                 <nav className={clsx(styles.header__navbar)}>
-                    <Link to="/#" >
+                    <Link to="/city-tour" >
                         <img src={require("../../assets/img/logo.png")}
                             alt="" className={clsx(styles.header__logo)} />
                     </Link>

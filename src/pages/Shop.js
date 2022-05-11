@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import '../components/Grid.css';
 import clsx from 'clsx'
@@ -19,6 +19,7 @@ import ShopItem from '../components/Shop/ShopItem'
 import { productsFetch } from '../features/productSlice'
 import { addToCart, getTotals } from "../features/cartSlice";
 
+import {motion} from 'framer-motion'
 
 const Shop = () => {
     const { items, loading } = useSelector((state) => state.products)
@@ -54,7 +55,10 @@ const Shop = () => {
     //     fetchProduct();
     // }, [])
     return (
-        <>
+        <motion.div
+            intial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}>
             <Navbar buttonnav="#f76570" />
             <Hero1img img={require("../assets/img/acticle-3.jpg")}></Hero1img>
             {
@@ -67,9 +71,9 @@ const Shop = () => {
                                 <h1 style={{ color: "#fff", lineHeight: "30px", fontSize: "20px", padding: "0 20px" }} >
                                     Shop
                                 </h1>
-                                <Link to="/cart" style={{ color: "#fff", padding: "15px 60px",textDecoration:"none" }}>
+                                <Link to="/cart" style={{ color: "#fff", padding: "15px 60px", textDecoration: "none" }}>
                                     <FontAwesomeIcon style={{ fontSize: "26px" }} icon={faCartShopping} />
-                                    <span style={{ fontSize: "20px", paddingLeft:"6px"}}>{cart.cartTotalQuantity}</span>
+                                    <span style={{ fontSize: "20px", paddingLeft: "6px" }}>{cart.cartTotalQuantity}</span>
                                 </Link>
                             </div>
                             <div className={clsx("row")}>
@@ -92,7 +96,7 @@ const Shop = () => {
                 )
             }
             <Footer />
-        </>
+        </motion.div>
     )
 }
 

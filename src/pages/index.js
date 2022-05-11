@@ -7,11 +7,16 @@ import Tour from '../components/Tour'
 import Article from '../components/Article'
 import Footer from '../components/Footer'
 import Buynow from '../components/Buynow'
+import {motion} from 'framer-motion'
 
 const Home = () => {
 
   return (
-    <>
+    <motion.div
+      intial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
         <Navbar />
         <Herosection />
         <Package />
@@ -20,7 +25,7 @@ const Home = () => {
         <Article />
         <Footer />
         <Buynow />
-    </>
+    </motion.div>
   )
 }
 

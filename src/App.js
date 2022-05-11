@@ -10,9 +10,7 @@ function App() {
   
   return (
     <Router>
-      <Navbar/>
       <AnimatedRoutes />
-      <Footer />
     </Router>
   );
 }

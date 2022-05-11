@@ -7,13 +7,11 @@ import Tour from '../components/Tour'
 import Article from '../components/Article'
 import Footer from '../components/Footer'
 import Buynow from '../components/Buynow'
-import SmoothScroll from '../components/SmoothScroll/SmoothScroll'
 
 const Home = () => {
 
   return (
     <>
-      <SmoothScroll>
         <Navbar />
         <Herosection />
         <Package />
@@ -22,7 +20,6 @@ const Home = () => {
         <Article />
         <Footer />
         <Buynow />
-      </SmoothScroll>
     </>
   )
 }

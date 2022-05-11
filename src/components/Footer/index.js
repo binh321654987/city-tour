@@ -14,7 +14,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className={clsx(styles.footer)}>
+        <div id="footer" className={clsx(styles.footer)}>
             <div className="grid wide">
                 <div className={clsx(styles.footer_container)}>
                     <div className={clsx(styles.footer_item)}>

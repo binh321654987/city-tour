@@ -7,7 +7,7 @@ import clsx from 'clsx'
 
 const Packages = ({ children, src, color }) => {
     return (
-        <Link to="/" className={clsx(styles.package_item__list)}>
+        <Link to="/packages" className={clsx(styles.package_item__list)}>
             <img className={clsx(styles.package_item__img)} src={src} alt="">
             </img>
                 <Button package_item__price btn color={color}>{children}</Button>

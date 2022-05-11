@@ -23,7 +23,7 @@ const Article = () => {
 
     if (isMobile) {
         return (
-            < div className={clsx(styles.acticle)} >
+            <div id="article" className={clsx(styles.acticle)} >
                 <div className={clsx("grid wide")}>
                     <div className={clsx(styles.acticle_header)}>
                         <h4>FROM THE BLOG</h4>
@@ -32,7 +32,7 @@ const Article = () => {
                     <div className="row">
                         <div className="col l-6 c-12">
                             <ArticleItem
-                                to="/"
+                                to="navbar"
                                 title="OUR NEWS"
                                 header="Travel Events"
                                 description="Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis."
@@ -42,7 +42,7 @@ const Article = () => {
                         </div>
                         <div className="col l-6 c-12">
                             <ArticleItem
-                                to="/a"
+                                to="navbar"
                                 title="TRAVEL TIPS"
                                 header="New Routes"
                                 description="Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis."
@@ -55,7 +55,7 @@ const Article = () => {
                         </div>
                         <div className="col l-6 c-12">
                             <ArticleItem
-                                to="/a"
+                                to="navbar"
                                 title="OUR NEWS"
                                 header="Best Beaches"
                                 description="Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis."
@@ -67,7 +67,7 @@ const Article = () => {
                         </div>
                         <div className="col l-6 c-12">
                             <ArticleItem
-                                to="/a"
+                                to="navbar"
                                 title="TRAVEL TIPS"
                                 header="Love Travel"
                                 description="Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis."
@@ -82,7 +82,7 @@ const Article = () => {
         )
     }
     return (
-        <div className={clsx(styles.acticle)}>
+        <div id="article" className={clsx(styles.acticle)}>
             <div className={clsx("grid wide")}>
                 <div className={clsx(styles.acticle_header)}>
                     <h4>FROM THE BLOG</h4>

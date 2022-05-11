@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 import clsx from 'clsx'
 import styles from './acticle.module.css'

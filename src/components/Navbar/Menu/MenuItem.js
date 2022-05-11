@@ -4,7 +4,8 @@ import { faCaretRight } from '@fortawesome/free-solid-svg-icons'
 import Dropdown from './Dropdown'
 
 import { Link } from 'react-router-dom';
-import clsx from 'clsx'
+import { Link as LinkS } from 'react-scroll';
+import clsx from 'clsx';
 import styles from "./menu.module.css";
 
 const MenuItem = ({ items, depthLevel }) => {
@@ -17,7 +18,11 @@ const MenuItem = ({ items, depthLevel }) => {
         >
             {items.submenu ? (
                 <>
-                    <Link to={items.to}  
+                    <LinkS to={items.to}  
+                        spy={true} 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500}
                         className={styles.navbarlist__item__link}
                         aria-expanded={dropdown ? "true" : "false"}
                         // onClick={() => setDropdown((prev) => !prev)}
@@ -27,7 +32,7 @@ const MenuItem = ({ items, depthLevel }) => {
                         {items.title}
                         {depthLevel > 0 ? <FontAwesomeIcon className={clsx(styles.subicon)} icon={faCaretRight} />
                             : <span className="arrow" />}
-                    </Link>
+                    </LinkS>
                     <Dropdown key={items} depthLevel={depthLevel} submenus={items.submenu} dropdown={dropdown} />
                 </>
             ) : (

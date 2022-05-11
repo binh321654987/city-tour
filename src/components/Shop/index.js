@@ -6,7 +6,7 @@ import ServiceItem from './ServiceItem'
 
 const Service = () => {
     return (
-        <div className={clsx(styles.service)}>
+        <div id="services" className={clsx(styles.service)}>
             <div className={clsx("grid")}>
                 <div className={clsx(styles.service_header)}>
                     <h4>MULTIPLE BENEFITS INCLUDED</h4>

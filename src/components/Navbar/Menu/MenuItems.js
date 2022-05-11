@@ -7,22 +7,22 @@ export const menuItems = [
     {
         id: 2,
         title: "Packages",
-        to: "/packages",
+        to: "packages",
         submenu: [
             {
                 id: 1,
                 title: "Search 1",
-                to: "#"
+                to: "/packages"
             },
             {
                 id: 2,
                 title: "Search 2",
-                to: "#",
+                to: "/packages",
             },
             {
                 id: 3,
                 title: "Tour Package",
-                to: "#",
+                to: "/packages",
                 submenu: [
                     {
                         id: 1,
@@ -61,34 +61,34 @@ export const menuItems = [
     {
         id: 3,
         title: "Shop",
-        to: "/shop",
+        to: "tour",
         submenu: [
             {
                 id: 1,
                 title: "Archive",
-                to: "#"
+                to: "/shop"
             },
             {
                 id: 2,
                 title: "Single Product",
-                to: "#"
+                to: "/shop"
             },
             {
                 id: 3,
                 title: "Cart",
-                to: "#"
+                to: "/cart"
             },
             {
                 id: 4,
                 title: "Checkout",
-                to: "#"
+                to: "/cart"
             }
         ]
     },
     {
         id: 4,
         title: "About Us",
-        to: "#",
+        to: "footer",
         submenu: [
             {
                 id: 1,
@@ -110,7 +110,7 @@ export const menuItems = [
     {
         id: 5,
         title: "Pages",
-        to: "#",
+        to: "services",
         submenu: [
             {
                 id: 1,
@@ -191,7 +191,7 @@ export const menuItems = [
     {
         id: 6,
         title: "News",
-        to: "#",
+        to: "article",
         submenu: [
             {
                 id: 1,
@@ -225,7 +225,7 @@ export const menuItems = [
     {
         id: 7,
         title: "Contact",
-        to: "#",
+        to: "footer",
         submenu: [
             {
                 id: 1,

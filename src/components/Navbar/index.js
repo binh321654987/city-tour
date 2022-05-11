@@ -31,7 +31,7 @@ const Navbar = ({ buttonnav }) => {
     const trasparent = scrollNav ? styles.trasparent: "" ;
 
     return (
-        <header className={clsx(styles.header,{[styles.trasparent]:trasparent})}>
+        <header id="navbar" className={clsx(styles.header,{[styles.trasparent]:trasparent})}>
             <div className={`grid wide`}>
                 <nav className={clsx(styles.header__navbar)}>
                     <Link to="/city-tour" >
